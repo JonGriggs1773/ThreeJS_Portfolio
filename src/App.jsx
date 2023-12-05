@@ -3,7 +3,6 @@ import {Home, About, Projects, Contact} from './pages'
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom'
 import Navbar from './components/Navbar'
 //TODO https://www.youtube.com/watch?v=FkowOdMjvYo
-//TODO Left off at 25:00 in video
 
 
 const App = () => {
