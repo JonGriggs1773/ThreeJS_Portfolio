@@ -29,14 +29,14 @@ const renderContent = {
     ),
     3: (
         <InfoBox 
-        text="Feel free to check out projects I have led, and assisted with throughout the years!"
+        text="Feel free to check out projects I have led and assisted with throughout the years!"
         link='/projects'
         btnText='Visit My Portfolio'
         />
     ),
     4: (
         <InfoBox 
-        text="Want to collaborate on a or just simply looking for a dev?"
+        text="Want to collaborate on a project or just simply looking for a dev?"
         link='/contact'
         btnText='Shoot Me A Message!'
         />
