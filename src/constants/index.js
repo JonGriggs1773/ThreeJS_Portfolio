@@ -128,7 +128,7 @@ export const experiences = [
 		company_name: 'HomeFreeHaven',
 		icon: homefreehaven,
 		iconBg: '#fbc3bc',
-		date: 'Jan 2021 - Feb 2022',
+		date: 'August 2023 - Present',
 		points: [
 			'Engineered an informative web platform for the start-up.',
 			'Collaborating with cross-functional teams including marketing, project managers, and other amazing people to create high-quality web marketing.',
