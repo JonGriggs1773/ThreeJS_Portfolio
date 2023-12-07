@@ -29,6 +29,9 @@ import soundoff from './soundoff.png'
 import java from './java.svg'
 import python from './python.svg'
 import threejs from './threejs.svg'
+import mysql from './mysql.svg'
+import bootstrap from './bootstrap.svg'
+import springboot from './springboot.svg'
 
 export {
 	css,
@@ -61,5 +64,8 @@ export {
 	soundoff,
 	java,
 	python,
-	threejs
+	threejs,
+	mysql,
+	bootstrap,
+	springboot
 }

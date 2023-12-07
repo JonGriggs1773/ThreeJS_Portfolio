@@ -4,12 +4,7 @@ import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import logo from './logo.svg'
+import ctu from './ctu.png'
+import homefreehaven from './homefreehaven.png'
 
-export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
-}
+export { hero, meta, shopify, starbucks, tesla, logo, ctu, homefreehaven }

@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from '../assets/images'
+import { meta, shopify, ctu, homefreehaven } from '../assets/images'
 import {
 	car,
 	contact,
@@ -25,7 +25,10 @@ import {
 	summiz,
 	tailwindcss,
 	threads,
-	typescript
+	typescript,
+	mysql,
+	bootstrap,
+	springboot
 } from '../assets/icons'
 
 export const skills = [
@@ -88,60 +91,48 @@ export const skills = [
 		imageUrl: threejs,
 		name: 'Three.js',
 		type: 'Frontend'
+	},
+	{
+		imageUrl: mysql,
+		name: 'MySQL',
+		type: 'Database'
+	},
+	{
+		imageUrl: bootstrap,
+		name: 'Bootstrap',
+		type: 'Frontend'
+	},
+	{
+		imageUrl: springboot,
+		name: 'SpringBoot',
+		type: 'Backend'
 	}
 ]
 
 export const experiences = [
 	{
-		title: 'React.js Developer',
-		company_name: 'Starbucks',
-		icon: starbucks,
+		title: 'Full Stack Software Engineer',
+		company_name: 'Colorado Technical University',
+		icon: ctu,
 		iconBg: '#accbe1',
-		date: 'March 2020 - April 2021',
+		date: 'September 2022 - Present',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.'
+			'Facilitate in-depth code analysis and debugging for student assignments.',
+			'Contribute technical expertise to company projects.',
+			'Conduct educational lectures and office hours as needed.',
+			'Continuously refine personal technical acumen to enhance student support efficacy.'
 		]
 	},
 	{
-		title: 'React Native Developer',
-		company_name: 'Tesla',
-		icon: tesla,
+		title: 'Full Stack Software Engineer',
+		company_name: 'HomeFreeHaven',
+		icon: homefreehaven,
 		iconBg: '#fbc3bc',
 		date: 'Jan 2021 - Feb 2022',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.'
-		]
-	},
-	{
-		title: 'Web Developer',
-		company_name: 'Shopify',
-		icon: shopify,
-		iconBg: '#b7e4c7',
-		date: 'Jan 2022 - Jan 2023',
-		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.'
-		]
-	},
-	{
-		title: 'Full stack Developer',
-		company_name: 'Meta',
-		icon: meta,
-		iconBg: '#a2d2ff',
-		date: 'Jan 2023 - Present',
-		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.'
+			'Engineered an informative web platform for the start-up.',
+			'Collaborating with cross-functional teams including marketing, project managers, and other amazing people to create high-quality web marketing.',
+			'Implementing responsive design and ensuring cross-browser compatibility.'
 		]
 	}
 ]
@@ -155,12 +146,12 @@ export const socialLinks = [
 	{
 		name: 'GitHub',
 		iconUrl: github,
-		link: 'https://github.com/YourGitHubUsername'
+		link: 'https://github.com/JonGriggs1773'
 	},
 	{
 		name: 'LinkedIn',
 		iconUrl: linkedin,
-		link: 'https://www.linkedin.com/in/YourLinkedInUsername'
+		link: 'https://www.linkedin.com/in/jonathen-griggs-91b717207/'
 	}
 ]
 
