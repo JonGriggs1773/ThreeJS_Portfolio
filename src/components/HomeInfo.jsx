@@ -17,7 +17,7 @@ const renderContent = {
 		<h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
 			Hi, I am <span className="font-semibold">Jonathen</span>
 			<br />
-			A Full-Stack Software engineer from <br /> Tennesse, United States
+			A Full-Stack Software engineer from <br /> Tennessee, United States
 		</h1>
 	),
 	2: (
