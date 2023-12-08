@@ -4,8 +4,10 @@ import {
 	VerticalTimelineElement
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import { skills, experiences } from '../constants'
+import { skills, experiences, socialLinks } from '../constants'
 import CTA from '../components/CTA'
+import { a } from '@react-spring/three'
+import Links from '../components/Links'
 
 const About = () => {
 	return (
@@ -100,6 +102,7 @@ const About = () => {
 			</div>
 			<hr className="border-slate-200" />
 			<CTA />
+			<Links />
 		</section>
 	)
 }

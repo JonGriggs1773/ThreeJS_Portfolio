@@ -3,6 +3,7 @@ import { projects } from '../constants'
 import { Link } from 'react-router-dom'
 import { arrow } from '../assets/icons'
 import CTA from '../components/CTA'
+import Links from '../components/Links'
 
 const Projects = () => {
 	return (
@@ -67,6 +68,7 @@ const Projects = () => {
 			</div>
 			<hr className="border-slate-200" />
 			<CTA />
+			<Links />
 		</section>
 	)
 }

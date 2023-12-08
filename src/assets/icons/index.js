@@ -32,10 +32,18 @@ import threejs from './threejs.svg'
 import mysql from './mysql.svg'
 import bootstrap from './bootstrap.svg'
 import springboot from './springboot.svg'
+import budget from './budget.svg'
+import pet from './pet.svg'
+import team from './team.svg'
+import agile from './agile.svg'
 
 export {
 	css,
 	express,
+	budget,
+	pet,
+	team,
+	agile,
 	git,
 	github,
 	html,
