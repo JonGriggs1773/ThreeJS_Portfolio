@@ -32,7 +32,8 @@ import {
 	budget,
 	pet,
 	team,
-	agile
+	agile,
+    binary
 } from '../assets/icons'
 
 export const skills = [
@@ -115,7 +116,12 @@ export const skills = [
 		imageUrl: agile,
 		name: 'Agile',
 		type: 'Backend'
-	}
+	},
+    {
+        imageUrl: tailwindcss,
+        name: 'TailwindCSS',
+        type: 'Frontend'
+    }
 ]
 
 export const experiences = [
@@ -188,5 +194,13 @@ export const projects = [
 		description:
 			'Designed and built a web application used to help coaches configure and manipulate their starting line-ups with incredible ease.',
 		link: 'https://github.com/JonGriggs1773/Team_App'
+	},
+    {
+		iconUrl: binary,
+		theme: 'btn-back-green',
+		name: 'BinaryConverter',
+		description:
+			'Created a bit arithmatic tool that converts binary numbers to decimal and decimal numbers to binary.',
+		link: 'https://binaryconvertionexpert.com'
 	}
 ]

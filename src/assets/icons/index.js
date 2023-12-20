@@ -36,6 +36,7 @@ import budget from './budget.svg'
 import pet from './pet.svg'
 import team from './team.svg'
 import agile from './agile.svg'
+import binary from './binary.svg'
 
 export {
 	css,
@@ -75,5 +76,6 @@ export {
 	threejs,
 	mysql,
 	bootstrap,
-	springboot
+	springboot,
+    binary
 }
